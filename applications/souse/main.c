@@ -8,7 +8,7 @@
  * 2022-11-19     RT-Thread    first version
  */
 
-#include <rtthread.h>
+#include <Evn.h>
 
 #define DBG_TAG "main"
 #define DBG_LVL DBG_LOG
@@ -16,7 +16,7 @@
 
 int main(void)
 {
-    int count = 1;
+    int count = 2;
 
     while (count++)
     {
